@@ -8,6 +8,56 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+<div class="top-banner" id="topBanner">
+    <div class="top-banner-con">
+        <img src="images/topbanner.jpg">
+        <a href="#" id="closeBanner"></a>
+    </div>
+</div>
 
+    <div class="nav-site">
+        <div class="w">
+        <div class="fl">送至：北京</div>
+            <ul class="fr">
+                <li><a href="#">你好，请登录</a></li>
+                <li><a href="#">免费注册</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">我的京东</a></li>
+                <li><a href="#">京东会员</a></li>
+                <li><a href="#">企业采购</a></li>
+                <li id="qrCode">
+                    <div class="hide" id="qrc">
+                        <img src="images/img3.png">
+                    </div>
+                    <a href="#">手机京东</a>
+                </li>
+                <li><a href="#">关注京东</a></li>
+                <li><a href="#">客户服务</a></li>
+                <li><a href="#">网站导航</a></li>
+            </ul>
+        </div>
+    </div>
+
+<script>
+    //关闭广告栏操作
+    var closeBanner = document.getElementById("closeBanner");
+    var topBanner = document.getElementById("topBanner");
+    closeBanner.onclick = function () {
+    //  topBanner.className = "hide";
+        topBanner.style.display = "none";
+    }
+
+    //悬停移除事件，二维码
+    var qr = document.getElementById("qrCode");
+    var qrc = document.getElementById("qrc");
+    qr.onmouseover = function(){
+        qrc.className ="none";
+    }
+    qr.onmouseout = function(){
+        qrc.className ="hide";
+    }
+
+
+</script>
 </body>
 </html>

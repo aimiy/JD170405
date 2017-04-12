@@ -120,3 +120,98 @@ s, i, em {
 .hide {
     display: none
 }
+
+
+
+    /*top-banner start*/
+    .top-banner{
+        height: 80px;
+        background-color: #FD6500;
+    }
+    .top-banner-con{
+        width: 1210px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .top-banner-con a{
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        background-image:url("../images/close-banner.png");
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    .top-banner-con a:hover{
+        background-position: bottom;
+    }
+    /*top-banner end*/
+    /*nav-site start*/
+    .nav-site {
+        height: 30px;
+        background-color:#F1F1F1;
+        line-height: 30px;
+    }
+    .nav-site ul{
+        list-style: none;
+        display: inline-block;
+    }
+    .nav-site ul li{
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        list-style: none;
+        display: inline-block;
+    }
+    .nav-site qrCode{
+        position: relative;
+    }
+    .nav-site qrCode img{
+        position: absolute;
+        left: 10px;
+    }
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+    /*nav-site start*/
+    /*nav-site end*/
+
+
